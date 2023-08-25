@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        margin: 20px;
+      }
+    </style>
+    <title>Form User</title>
+  </head>
+  <body>
+    <!-- Judul Form -->
+    <h3>Isi form di bawah ini!</h3>
+    <br />
+
+    <form>
+      <!-- Form First Name -->
+      <label for="fname">Nama Depan:</label><br />
+      <input type="text" id="fname" name="fname" required /><br />
+      <br />
+      <!-- Last Name -->
+      <label for="lname">Nama Belakang:</label><br />
+      <input type="text" id="lname" name="lname" required />
+      <br />
+      <br />
+      <!-- Jenis Kelamin -->
+      <p>Jenis Kelamin</p>
+      <input type="radio" id="Laki-laki" name="jenis_kelamin" value="Laki-laki" required />
+      <label for="Laki-laki">Laki-laki</label>
+      <input type="radio" id="Perempuan" name="jenis_kelamin" value="Perempuan" required />
+      <label for="Perempuan">Perempuan</label>
+      <br />
+      <br />
+      <!-- Alamat -->
+      <label for="address">Alamat:</label><br />
+      <input type="text" id="address" name="address" required />
+      <br />
+      <br />
+      <!-- Pilih Sosmed -->
+      <p>Pilih Sosial Media Favorit Kamu!</p>
+      <input type="radio" id="Instagram" name="fav_language" value="Instagram" required />
+      <label for="Instagram">Instagram</label><br />
+      <input type="radio" id="Twitter" name="fav_language" value="Twitter" required />
+      <label for="Twitter">Twitter</label><br />
+      <input type="radio" id="Tiktok" name="fav_language" value="Tiktok" required />
+      <label for="Tiktok">Tiktok</label><br />
+      <br />
+      <!-- Biografi -->
+      <textarea name="message" style="width: 200px; height: 200px">Isi biografi mu!.</textarea>
+      <br />
+      <br />
+      <!-- Email -->
+      <label for="email">Email:</label><br /><br />
+      <input type="email" id="email" name="email" required />
+      <br />
+      <br />
+      <!-- No. Hp -->
+      <label for="hp">No. Hp:</label><br /><br />
+      <input type="tel" id="hp" name="hp" placeholder="081xxxxxxxxx" pattern="[0-9]{12}" required />
+      <br />
+      <br />
+      <!-- Umur -->
+      <label for="umur">Umur:</label> <br /><br />
+      <input type="number" id="umur" name="umur" min="1" max="90" required />
+      <br />
+      <br />
+      <!-- Link Sosmed -->
+      <label for="link">Link Sosial Media:</label><br /><br />
+      <input type="url" id="link" name="link" required />
+      <br />
+      <br />
+      <!-- Submit button -->
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
