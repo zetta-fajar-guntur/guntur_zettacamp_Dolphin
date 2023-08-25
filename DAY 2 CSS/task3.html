@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product</title>
+    <style>
+      * {
+        color: black;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        /* background-color: lightgray */
+      }
+      /* p,h3 {
+        background-color: white;
+      } */
+      header.sticky {
+        position: sticky;
+        top: 0;
+        padding: 5px;
+        background-color: rgb(234, 234, 234);
+      }
+      .card-t {
+        margin: 0px 8px 0px 50px;
+        box-shadow: 0px 1px 15px 0px rgb(166, 166, 166);
+        width: 300px;
+        border-radius: 20px;
+        background-color: white;
+      }
+      .card-b {
+        margin: 0px 8px 0px 50px;
+        box-shadow: 0px 1px 15px 0px rgb(166, 166, 166);
+        width: 300px;
+        border-radius: 20px;
+        background-color: white;
+      }
+      .card-m {
+        margin: 1rem 8px 1rem 50px;
+        box-shadow: 0px 1px 15px 0px rgb(166, 166, 166);
+        width: 300px;
+        border-radius: 20px;
+        background-color: white;
+      }
+      .d-flex {
+        display: flex;
+        justify-content: center;
+      }
+      img {
+        border-radius: 0px 0px 0px 0px;
+        height: 200px;
+        /* background-color: white; */
+      }
+      .center {
+        text-align: center;
+      }
+      .p-top {
+        padding: 0px 0px 0px 20px;
+      }
+      .p-middle {
+        padding: 0px 0px 0px 20px;
+      }
+      .p-bot {
+        padding: 0px 0px 0px 20px;
+      }
+      .f-small {
+        font-size: small;
+      }
+      .mb-1 {
+        margin-bottom: 1rem;
+      }
+      .pt-1 {
+        padding-top: 1rem;
+      }
+      .zoom {
+        transition: transform 0.2s; 
+      }
+      .zoom:hover {
+        transform: scale(1.1); 
+      }
+    </style>
+  </head>
+  <body>
+    <header class="sticky">
+      <h1 class="center">Popular Products</h1>
+    </header>
+    <!-- row 1 -->
+    <div class="d-flex">
+      <div class="card-t zoom">
+        <p class="p-top">NEW</p>
+        <h3 class="p-middle">
+          iPhone 14 Pro & <br />
+          iPhone 14 Pro Max
+        </h3>
+        <div class="center">
+          <img
+            src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-card-40-iphone14pro-202209?wid=340&hei=264&fmt=p-jpg&qlt=95&.v=1663611329492"
+            alt="iphone 14"
+          />
+        </div>
+        <br />
+        <p class="p-bot f-small">From $999or $41.62/mo. for 24 mo. before trade-in</p>
+      </div>
+      <div class="card-t zoom">
+        <p class="p-top">NEW</p>
+        <h3 class="p-middle">
+          iPhone 14 & <br />
+          iPhone 14 Plus
+        </h3>
+        <div class="center">
+          <img
+            src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-card-40-iphone14-202209?wid=340&hei=264&fmt=p-jpg&qlt=95&.v=1661958160674"
+            alt="iphone 14"
+          />
+        </div>
+        <br />
+        <p class="p-bot f-small">From $799or $33.29/mo. for 24 mo. before trade-in</p>
+      </div>
+      <div class="card-t zoom">
+        <p class="p-top">NEW</p>
+        <h3 class="p-middle">
+          iPhone 13 mini & <br />
+          iPhone 13
+        </h3>
+        <div class="center">
+          <img
+            src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-card-40-iphone13-202209?wid=340&hei=264&fmt=p-jpg&qlt=95&.v=1661958176452"
+            alt="iphone 13"
+          />
+        </div>
+        <br />
+        <p class="p-bot f-small">From $599or $24.95/mo. for 24 mo. before trade-in</p>
+      </div>
+    </div>
+    <!-- row 2 -->
+    <div class="d-flex">
+      <div class="card-m zoom">
+        <p class="p-top">NEW</p>
+        <h3 class="p-middle">
+          MacBook Air 13” and<br />
+          15” with M2 chip
+        </h3>
+        <div class="center">
+          <img
+            src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mac-card-40-macbook-air-13-15-202306?wid=600&hei=500&fmt=p-jpg&qlt=95&.v=1684262493564"
+            alt="mac"
+          />
+        </div>
+        <br />
+        <p class="p-bot f-small">From $1099or $91.58/mo. for 12 mo.</p>
+      </div>
+      <div class="card-m zoom">
+        <p class="p-top">NEW</p>
+        <h3 class="p-middle">
+          MacBook Pro 13” <br />
+          <br />
+        </h3>
+        <div class="center">
+          <img
+            src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mac-card-40-macbook-pro-13-202206?wid=600&hei=500&fmt=p-jpg&qlt=95&.v=1665082744007"
+            alt="mac"
+          />
+        </div>
+        <br />
+        <p class="p-bot f-small">From $1299or $108.25/mo. for 12 mo.</p>
+      </div>
+      <div class="card-m zoom">
+        <p class="p-top">NEW</p>
+        <h3 class="p-middle">
+          MacBook Pro 14” and <br />
+          16”
+        </h3>
+        <div class="center">
+          <img
+            src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mac-card-40-macbook-pro-14-16-202301?wid=600&hei=500&fmt=p-jpg&qlt=95&.v=1670463778272"
+            alt="mac"
+          />
+        </div>
+        <br />
+        <p class="p-bot f-small">From $1999or $168.58/mo. for 12 mo.</p>
+      </div>
+    </div>
+    <!-- row 3 -->
+    <div class="d-flex">
+      <div class="card-b zoom">
+        <p class="p-top">NEW</p>
+        <h3 class="p-middle">
+          AirPods Pro <br />
+          (2nd generation)
+        </h3>
+        <div class="center">
+          <img
+            src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MQD83?wid=200&hei=200&fmt=jpeg&qlt=95&.v=1660803972361"
+            alt="acc"
+          />
+        </div>
+        <br />
+        <p class="p-bot f-small">From $999or $41.62/mo. for 24 mo. before trade-in</p>
+      </div>
+      <div class="card-b zoom">
+        <p class="p-top">NEW</p>
+        <h3 class="p-middle">
+          AirPods Max - <br />
+          Silver
+        </h3>
+        <div class="center">
+          <img
+            src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/airpods-max-select-silver-202011?wid=200&hei=200&fmt=jpeg&qlt=95&.v=1604021221000"
+            alt="acc"
+          />
+        </div>
+        <br />
+        <p class="p-bot f-small">From $999or $41.62/mo. for 24 mo. before trade-in</p>
+      </div>
+      <div class="card-b zoom">
+        <p class="p-top">READY FOR ADVENTURE</p>
+        <h3 class="p-middle">
+          Apple Watch Ultra <br />
+          <br />
+        </h3>
+        <div class="center">
+          <img
+            src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/watch-card-40-ultra-202209?wid=340&hei=264&fmt=png-alpha&.v=1678733152901"
+            alt="iphone 14"
+          />
+        </div>
+        <br />
+        <p class="p-bot f-small">From $549</p>
+      </div>
+    </div>
+  </body>
+</html>
