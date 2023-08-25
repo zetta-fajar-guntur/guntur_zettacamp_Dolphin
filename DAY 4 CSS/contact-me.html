@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>iBox support</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="Index.html"> Home </a></li>
+          <li><a href="shopping-list.html"> Shopping List</a></li>
+          <li><a href="about-me.html"> About me </a></li>
+          <li class="active"><a href="contact-me.html"> Contact me</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <div>
+        <h2>Get the help you need.</h2>
+        <h3 style="margin-left: 150px">Give us a few details and we'll offer the best solution. <br /></h3>
+      </div>
+      <form action="Index.html" style="margin-left: 150px">
+        <!-- Form First Name -->
+        <label for="fname">First Name:</label><br /><br />
+        <input type="text" id="fname" name="fname" class="round-border"/>
+        <br />
+        <br />
+        <!-- Last Name -->
+        <label for="lname">Last Name:</label><br />
+        <input type="text" id="lname" name="lname" class="round-border"/>
+        <br />
+        <br />
+        <!-- Email -->
+        <label for="email">Email:</label><br /><br />
+        <input type="email" id="email" name="email" class="round-border"/>
+        <br />
+        <br />
+        <!-- No. Hp -->
+        <label for="hp">No. Hp:</label><br /><br />
+        <input type="tel" id="hp" name="hp" placeholder="081xxxxxxxxx" pattern="[0-9]{12}" class="round-border"/>
+        <br />
+        <br />
+        <!-- keluhan area -->
+        <label for="keluhan">Fill your complaint:</label><br /><br />
+        <textarea name="message" style="width: 250px; height: 250px" class="round-border">fill your complaint!.</textarea>
+        <br />
+        <br />
+        <!-- Submit button -->
+        <input type="submit" value="Submit" class="add-button" style="margin-left: 0" />
+      </form>
+    </section>
+    <footer>
+      <div>
+        <p>@Copyright</p>
+      </div>
+    </footer>
+  </body>
+</html>
