@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add item iBox</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="Index.html"> Home </a></li>
+          <li class="active"><a href="shopping-list.html"> Shopping List</a></li>
+          <li><a href="about-me.html"> About me </a></li>
+          <li><a href="contact-me.html"> Contact me</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <div>
+        <h2>Add Item.</h2>
+        <h3 style="margin-left: 150px">Fill it properly.</h3>
+      </div>
+      <form action="shopping-list.html" style="margin-left: 150px">
+        <!-- Form First Name -->
+        <label for="fname">First Name:</label><br /><br>
+        <input type="text" id="fname" name="fname"/><br /><br>
+        <br />
+        <!-- Last Name -->
+        <label for="lname">Last Name:</label><br />
+        <input type="text" id="lname" name="lname" />
+        <br />
+        <br />
+        <!-- Email -->
+        <label for="email">Email:</label><br /><br />
+        <input type="email" id="email" name="email" />
+        <br />
+        <br />
+        <!-- No. Hp -->
+        <label for="hp">No. Hp:</label><br /><br />
+        <input type="tel" id="hp" name="hp" placeholder="081xxxxxxxxx" pattern="[0-9]{12}" />
+        <br />
+        <br />
+        <!-- Card -->
+        <label for="card">Choose your item:</label><br /><br />
+        <input type="radio" id="free" name="Card" value="Mini" />
+        <label for="Mini">Iphone</label>
+        <input type="radio" id="Individual" name="Card" value="Individual" />
+        <label for="Individual">Mac</label>
+        <input type="radio" id="Family" name="Card" value="Family" />
+        <label for="Family">Acc</label>
+        <br />
+        <br />
+        <!-- Password -->
+        <!-- <label for="Password">Password:</label><br /><br />
+        <input type="password" id="password" name="password" />
+        <br />
+        <br /> -->
+        <!-- Submit button -->
+        <input type="submit" value="Submit" class="add-button" style="margin-left: 0;"/>
+      </form>
+    </section>
+    <br><br>
+    <footer>
+      <div>
+        <p>@Copyright</p>
+      </div>
+    </footer>
+  </body>
+</html>

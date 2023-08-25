@@ -1,0 +1,106 @@
+* {
+  color: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  row-gap: 40px;
+  margin-bottom: 20px;
+}
+.container-card {
+  /* margin: 10px; */
+  padding: 20px;
+  /* kalo mau membuat fit konten bisa pake code dibawah */
+  flex: 0 1 calc(100% / 4);
+  box-shadow: 0px 1px 15px 0px rgb(166, 166, 166);
+  background-color: white;
+  border-radius: 20px;
+  transition: transform 0.2s;
+}
+.container-card:hover {
+  transform: scale(1.1);
+}
+.round-border {
+  border: 1px solid gray;
+  border-radius: 8px;
+  padding: 4px;
+  width: 250px;
+}
+.center {
+  text-align: center;
+}
+.product-image img {
+  max-width: 100%;
+}
+.product-info {
+  margin-top: auto;
+}
+.add-button {
+  box-shadow: 0px 1px 15px 0px rgb(166, 166, 166);
+  background-color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 12px;
+  font-size: 14px;
+  margin: 10px;
+  cursor: pointer;
+}
+nav {
+  background-color: rgb(234, 234, 234);
+}
+footer {
+  background-color: rgb(234, 234, 234);
+  
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  cursor: pointer;
+}
+li {
+  padding: 14px 16px;
+}
+li a {
+  text-decoration: none;
+  padding: 15px 0px;
+}
+li:hover {
+  background-color: lightgray;
+}
+.active {
+  background-color: lightgray;
+}
+body {
+  margin: 0;
+}
+h1 {
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+}
+h2 {
+  margin-left: 150px;
+  font-size: 36pt;
+  width: 60%;
+}
+h2 a {
+  text-decoration: none;
+  color: gray;
+}
+footer {
+  margin: 0;
+  padding: 5px;
+  text-align: center;
+}
+.bg-video {
+  width: 100%;
+}
+.txt-video {
+  /* color: whitesmoke; */
+  width: 100%;
+  padding: 20px;
+}
