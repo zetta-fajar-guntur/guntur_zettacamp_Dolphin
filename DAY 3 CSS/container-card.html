@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Container Card</title>
+    <style>
+      * {
+        color: black;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+      nav {
+        background-color: rgb(234, 234, 234);
+      }
+      h1 {
+        font-size: 3rem;
+        text-align: center;
+      }
+      p {
+        font-size: 9pt;
+      }
+      .flex-container {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        row-gap: 20px;
+      }
+      .container-card {
+        /* margin: 10px; */
+        padding: 20px;
+        /* kalo mau membuat fit konten bisa pake code dibawah */
+        flex: 0 1 calc(100% / 4);
+        box-shadow: 0px 1px 15px 0px rgb(166, 166, 166);
+        background-color: white;
+        border-radius: 20px;
+        transition: transform 0.2s; 
+      }
+      .container-card:hover {
+        transform: scale(1.1); 
+      }
+      .product-image img {
+        max-width: 100%;
+      }
+      .product-info {
+        margin-top: auto;
+      }
+      /* @media (max-width: 300px) {
+        .product-card {
+          flex-grow: 1;
+          flex-basis: 25%;
+        }
+      } */
+    </style>
+  </head>
+  <body>
+    <nav>
+      <h1>Popular Products</h1>
+    </nav>
+    <section class="flex-container">
+      <!-- row 1 -->
+      <div class="container-card">
+        <div class="product-image">
+          <div class="product-info">
+            <h3>
+              iPhone 14 Pro & <br />
+              iPhone 14 Pro Max
+            </h3>
+          </div>
+          <img
+            src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-card-40-iphone14pro-202209?wid=340&hei=264&fmt=p-jpg&qlt=95&.v=1663611329492"
+            alt="iphone 14"
+          />
+          <p>From $999or $41.62/mo. for 24 mo.</p>
+        </div>
+      </div>
+      <div class="container-card">
+        <div class="product-image">
+          <div class="product-info">
+            <h3>
+              iPhone 14 Pro & <br />
+              iPhone 14 Pro Max
+            </h3>
+          </div>
+          <img
+            src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-card-40-iphone14pro-202209?wid=340&hei=264&fmt=p-jpg&qlt=95&.v=1663611329492"
+            alt="iphone 14"
+          />
+          <p>$99.99</p>
+        </div>
+      </div>
+      <div class="container-card">
+        <div class="product-image">
+          <div class="product-info">
+            <h3>
+              iPhone 14 Pro & <br />
+              iPhone 14 Pro Max
+            </h3>
+          </div>
+          <img
+            src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-card-40-iphone14pro-202209?wid=340&hei=264&fmt=p-jpg&qlt=95&.v=1663611329492"
+            alt="iphone 14"
+          />
+          <p>$99.99</p>
+        </div>
+      </div>
+      <!-- row 2 -->
+      <div class="container-card">
+        <div class="product-image">
+          <div class="product-info">
+            <h3>
+              iPhone 14 Pro & <br />
+              iPhone 14 Pro Max
+            </h3>
+          </div>
+          <img
+            src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-card-40-iphone14pro-202209?wid=340&hei=264&fmt=p-jpg&qlt=95&.v=1663611329492"
+            alt="iphone 14"
+          />
+          <p>$99.99</p>
+        </div>
+      </div>
+      <div class="container-card">
+        <div class="product-image">
+          <div class="product-info">
+            <h3>
+              iPhone 14 Pro & <br />
+              iPhone 14 Pro Max
+            </h3>
+          </div>
+          <img
+            src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-card-40-iphone14pro-202209?wid=340&hei=264&fmt=p-jpg&qlt=95&.v=1663611329492"
+            alt="iphone 14"
+          />
+          <p>$99.99</p>
+        </div>
+      </div>
+      <div class="container-card">
+        <div class="product-image">
+          <div class="product-info">
+            <h3>
+              iPhone 14 Pro & <br />
+              iPhone 14 Pro Max
+            </h3>
+          </div>
+          <img
+            src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-card-40-iphone14pro-202209?wid=340&hei=264&fmt=p-jpg&qlt=95&.v=1663611329492"
+            alt="iphone 14"
+          />
+          <p>$99.99</p>
+        </div>
+      </div>
+      <!-- row 3 -->
+      <div class="container-card">
+        <div class="product-image">
+          <div class="product-info">
+            <h3>
+              iPhone 14 Pro & <br />
+              iPhone 14 Pro Max
+            </h3>
+          </div>
+          <img
+            src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-card-40-iphone14pro-202209?wid=340&hei=264&fmt=p-jpg&qlt=95&.v=1663611329492"
+            alt="iphone 14"
+          />
+          <p>$99.99</p>
+        </div>
+      </div>
+      <div class="container-card">
+        <div class="product-image">
+          <div class="product-info">
+            <h3>
+              iPhone 14 Pro & <br />
+              iPhone 14 Pro Max
+            </h3>
+          </div>
+          <img
+            src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-card-40-iphone14pro-202209?wid=340&hei=264&fmt=p-jpg&qlt=95&.v=1663611329492"
+            alt="iphone 14"
+          />
+          <p>$99.99</p>
+        </div>
+      </div>
+      <div class="container-card">
+        <div class="product-image">
+          <div class="product-info">
+            <h3>
+              iPhone 14 Pro & <br />
+              iPhone 14 Pro Max
+            </h3>
+          </div>
+          <img
+            src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-card-40-iphone14pro-202209?wid=340&hei=264&fmt=p-jpg&qlt=95&.v=1663611329492"
+            alt="iphone 14"
+          />
+          <p>$99.99</p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <h5 style="font-size: 1vw; text-align: center">@iBox</h5>
+    </footer>
+  </body>
+</html>
